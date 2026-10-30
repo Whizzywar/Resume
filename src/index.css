@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --primary: 29 78 216;
+  --secondary: 161 98 7;
+  --brand: 37 99 235;
+}
+:root.dark {
+  color-scheme: dark;
+  --primary: 96 165 250;
+  --secondary: 251 191 36;
+  --brand: 37 99 235;
+}
+html {
+  scroll-padding-top: 80px;
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  body {
+    @apply bg-white font-sans text-neutral-900 antialiased transition-colors duration-500;
+  }
+  .dark body {
+    @apply bg-black text-neutral-100;
+  }
+  a:focus-visible,
+  button:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+}
+
+.mask {
+  display: block;
+  overflow: hidden;
+}
+.marquee {
+  display: flex;
+  width: max-content;
+  animation: slide 36s linear infinite;
+}
+@keyframes slide {
+  to {
+    transform: translateX(-50%);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .marquee {
+    animation: none;
+  }
+  html {
+    scroll-behavior: auto;
+  }
+}
