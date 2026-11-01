@@ -92,16 +92,16 @@ export function About() {
           <h2 className="reveal font-display text-4xl font-semibold tracking-tight sm:text-5xl">
             About <em className="text-primary">me</em>
           </h2>
-          <div className="reveal mt-6 space-y-5 text-base leading-relaxed text-neutral-700 dark:text-neutral-300 lg:text-lg">
+          <div className="reveal mt-6 space-y-5 text-base leading-relaxed text-justify text-neutral-700 dark:text-neutral-300 lg:text-lg">
             <p>
               My name is <span className="font-bold">UBANI WISDOM</span> (aka
-              Wh1zzyware). I am a frontend developer with over 3 years
-              experience of creating beautiful user interfaces for businesses,
-              companies and startups. With a keen eye for design and strong
-              proficiency in frontend development, I strive to bring ideas to
-              life through clean and efficient code, which enables me to deliver
-              seamless modern user experiences that integrate functionality with
-              optimal performance.
+              Wh1zzyware), a self-taught frontend developer with over 3 years
+              experience of building beautiful user interfaces in the software
+              industry. With a keen eye for design and strong proficiency in
+              frontend development, I strive to bring ideas to life through
+              clean and efficient code, which enables me to deliver seamless
+              modern user experiences that integrate functionality with optimal
+              performance.
             </p>
             <p>
               I am driven and enthusiastic about building scalable web

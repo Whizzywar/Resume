@@ -20,9 +20,10 @@ export const profile = {
     "Tailwind CSS",
     "GSAP",
     "Node.js",
-    "PostgreSQL",
-    "Figma",
-    "Accessibility",
+    "Firebase",
+    "API integration",
+    "Responsiveness",
+    "Prompt engineering",
     "SEO",
   ],
   // Put your photos in /public (e.g. /public/me.jpg) and reference them as '/me.jpg'.
@@ -97,10 +98,18 @@ export const extra = {
 };
 
 export const socials = [
-  ["GitHub", "https://github.com", "github"],
-  ["LinkedIn", "https://linkedin.com", "linkedin"],
-  ["X", "https://x.com", "x"],
-  ["Instagram", "https://instagram.com", "instagram"],
+  ["GitHub", "", "https://github.com/Whizzywar"],
+  [
+    "LinkedIn",
+    "https://www.linkedin.com/in/wisdom-ubani-256753268?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "linkedin",
+  ],
+  ["X", "https://x.com/Whizzyware", "x"],
+  [
+    "Instagram",
+    "https://www.linkedin.com/in/wisdom-ubani-256753268?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+    "instagram",
+  ],
 ];
 
 export const experience = [
@@ -116,7 +125,7 @@ export const experience = [
     ],
   },
   {
-    period: "2019 – 2020",
+    period: "2020 – 2021",
     role: "IT Student",
     org: "Bluetooth link Technologies Emab Plaza",
     where: "Abuja",
@@ -127,7 +136,7 @@ export const experience = [
   },
   {
     period: "2024 – 2025",
-    role: "Web Developer(Wordpress)",
+    role: "Web Developer",
     org: "Deita Special Economic Zone",
     where: "Delta State",
     points: [
@@ -178,7 +187,7 @@ export const services = [
   {
     icon: "design",
     title: "Web development and design",
-    text: "Fast, responsive websites designed around what your customers need to do.",
+    text: "Fast, responsive websites designed and built to meet your business needs.",
     points: ["Custom design", "Mobile first", "SEO ready"],
   },
   {
@@ -196,7 +205,7 @@ export const services = [
   {
     icon: "support",
     title: "24-hour support",
-    text: "Round-the-clock help after launch, so problems are fixed before they cost you customers.",
+    text: "Round-the-clock help after launch, so problems are fixed regularly before they cost your customers/business.",
     points: ["Quick fixes", "Monitoring", "Maintenance plans"],
   },
 ];
