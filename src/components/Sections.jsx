@@ -92,7 +92,7 @@ export function About() {
           <h2 className="reveal font-display text-4xl font-semibold tracking-tight sm:text-5xl">
             About <em className="text-primary">me</em>
           </h2>
-          <div className="reveal mt-6 space-y-5 text-base leading-relaxed text-justify text-neutral-700 dark:text-neutral-300 lg:text-lg">
+          <div className="reveal mt-6 space-y-5 text-base leading-relaxed text-neutral-700 dark:text-neutral-300 lg:text-lg">
             <p>
               My name is <span className="font-bold">UBANI WISDOM</span> (aka
               Wh1zzyware), a self-taught frontend developer with over 3 years

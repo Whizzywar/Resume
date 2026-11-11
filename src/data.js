@@ -70,12 +70,13 @@ export const projects = [
     url: "#",
   },
   {
-    title: "Paperplane",
-    kind: "SaaS landing page",
-    year: 2025,
-    stack: "Next.js, Tailwind, Framer",
-    text: "A launch page that lifted trial sign-ups by 38 percent in its first month.",
-    url: "#",
+    image: "/Eatryte cover.webp",
+    title: "Eatryte",
+    kind: "Hospitality",
+    year: 2023,
+    stack: "React,Tailwind,GSAP",
+    text: "A food website for a restaurant where customers can browse the menu and place orders.",
+    url: "https://eatryte.vercel.app/",
   },
   {
     title: "Learnly",
@@ -98,7 +99,7 @@ export const extra = {
 };
 
 export const socials = [
-  ["GitHub", "", "https://github.com/Whizzywar"],
+  ["GitHub", "https://github.com/Whizzywar", "github"],
   [
     "LinkedIn",
     "https://www.linkedin.com/in/wisdom-ubani-256753268?utm_source=share_via&utm_content=profile&utm_medium=member_android",
